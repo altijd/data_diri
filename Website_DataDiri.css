@@ -52,3 +52,18 @@ th{
 table{
 	border-collapse: collapse;
 }
+
+.tombol{
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #337AB7;
+	border-width: 1px;
+	padding: 10px;
+	background-color: #337AB7;
+	color: white;
+}
+
+.tombol:hover {
+	border-color: #286090;
+	background-color: #286090;
+}
