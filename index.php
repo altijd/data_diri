@@ -5,7 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="Website_DataDiri.css">
 	</head>
 	<body>
-		<form action="" method="POST">
+		<form style="margin-left: 15%;" action="aksi.php" method="POST">
 			<table>
 				<tr>
 					<th colspan="17" style="text-align: left;"><h3>A. Data Pribadi</h3></th>
@@ -22,10 +22,10 @@
 					<td style="padding-top: 10px;" colspan="15"> : </td>
 				</tr>
 				<tr class="tr2">
-					<td style="padding-left: 10px;" colspan="16"><input type="radio" name="jk" value="lakilaki">1. Laki-laki</td>
+					<td style="padding-left: 10px;" colspan="16"><input type="radio" name="jk" value="Laki-laki">1. Laki-laki</td>
 				</tr>
 				<tr class="tr3">
-					<td style="padding-left: 10px; padding-bottom: 10px;" colspan="16"><input type="radio" name="jk" value="perempuan">2. Perempuan</td>
+					<td style="padding-left: 10px; padding-bottom: 10px;" colspan="16"><input type="radio" name="jk" value="Perempuan">2. Perempuan</td>
 				</tr>
 				<tr class="tr1">
 					<td class="td1" rowspan="2">A3.</td>
@@ -40,7 +40,7 @@
 				<tr class="tr3">
 					<td style="padding-left: 10px; padding-bottom: 10px;">Propinsi</td>
 					<td style="padding-bottom: 10px;"> : </td>
-					<td style="padding-bottom: 10px;"><input type="text" name="propinsi"></td>
+					<td style="padding-bottom: 10px;"><input type="text" name="propinsi1"></td>
 					<td style="padding-bottom: 10px; width: 30px;"></td>
 					<td style="padding-bottom: 10px;" colspan="4">Kode Pos</td>
 					<td style="padding-bottom: 10px;"> : </td>
@@ -122,7 +122,7 @@
 				<tr class="tr2">
 					<td style="padding-left: 10px;">Propinsi</td>
 					<td> : </td>
-					<td colspan="14"><input type="text" name="propinsi" ></td>
+					<td colspan="14"><input type="text" name="propinsi2" ></td>
 				</tr>
 				<tr class="tr2">
 					<td style="padding-left: 10px;">No telp</td>
@@ -150,6 +150,9 @@
 					<td style="border-bottom-right-radius: 20px; padding-left: 10px; padding-bottom: 10px;" colspan="16"><input type="text" name="email" style="width: 300px"></td>
 				</tr>
 			</table>
+			<center>
+				<input type="submit" value="kirim">
+			</center>
 		</form>
 	</body>
 </html>
