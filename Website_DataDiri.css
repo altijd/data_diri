@@ -1,0 +1,26 @@
+.border_luar{
+	border-style: solid;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 15%;
+	margin-bottom: 15%;
+	border-color: black;
+	border-width: 3px;
+}
+
+.header_table{
+	background-color: grey;
+	font-style: bold;
+	font-family: calibri;
+	font-size: 14pt;
+
+}
+
+.isian_table{
+	font-family: calibri;
+	font-size: 12pt;
+	border-style: solid;
+	border-color: black;
+	border-top-width: : 1px;
+	border-bottom-width: 1px;
+}
