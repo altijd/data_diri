@@ -31,17 +31,17 @@
 					<td>Asal SMU</td>
 					<td> : </td>
 					<td><input type="text" name="asalSmu"></td>
-					<td>Kabupaten/Kota</td>
+					<td colspan="3">Kabupaten/Kota</td>
 					<td> : </td>
-					<td><input type="text" name="kabupatenKota"></td>
+					<td colspan="5"><input type="text" name="kabupatenKota"></td>
 				</tr>
 				<tr>
 					<td>Propinsi</td>
 					<td> : </td>
 					<td><input type="text" name="propinsi"></td>
-					<td>Kode Pos</td>
+					<td colspan="3">Kode Pos</td>
 					<td> : </td>
-					<td><input type="text" name="kodepos"></td>
+					<td colspan="5"><input type="text" name="kodepos"></td>
 				</tr>
 				<tr>
 					<td rowspan="2">A4.</td>
@@ -55,14 +55,14 @@
 				<tr>
 					<td colspan="2"></td>
 					<td><input type="text" name="tempatLahir"></td>
-					<td><input style="width: 10px;" type="text" name="tanggal1"></td>
-					<td><input style="width: 10px;" type="text" name="tanggal2"></td>
-					<td><input style="width: 10px;" type="text" name="bulan1"></td>
-					<td><input style="width: 10px;" type="text" name="bulan2"></td>
-					<td><input style="width: 10px;" type="text" name="tahun1"></td>
-					<td><input style="width: 10px;" type="text" name="tahun2"></td>
-					<td><input style="width: 10px;" type="text" name="tahun3"></td>
-					<td><input style="width: 10px;" type="text" name="tahun4"></td>
+					<td><input style="width: 30px;" type="text" name="tanggal1"></td>
+					<td><input style="width: 30px;" type="text" name="tanggal2"></td>
+					<td><input style="width: 30px;" type="text" name="bulan1"></td>
+					<td><input style="width: 30px;" type="text" name="bulan2"></td>
+					<td><input style="width: 30px;" type="text" name="tahun1"></td>
+					<td><input style="width: 30px;" type="text" name="tahun2"></td>
+					<td><input style="width: 30px;" type="text" name="tahun3"></td>
+					<td><input style="width: 30px;" type="text" name="tahun4"></td>
 				</tr>
 			</table>
 		</form>
