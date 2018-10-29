@@ -8,7 +8,7 @@
 		<form action="" method="POST">
 			<table>
 				<tr>
-					<th colspan="7" style="text-align: left;"><h3>A. Data Pribadi</h3></th>
+					<th colspan="13" style="text-align: left;"><h3>A. Data Pribadi</h3></th>
 				</tr>
 				<tr>
 					<td>A1.</td>
@@ -32,7 +32,8 @@
 					<td>Asal SMU</td>
 					<td> : </td>
 					<td><input type="text" name="asalSmu"></td>
-					<td colspan="3">Kabupaten/Kota</td>
+					<td></td>
+					<td colspan="4">Kabupaten/Kota</td>
 					<td> : </td>
 					<td colspan="5"><input type="text" name="kabupatenKota"></td>
 				</tr>
@@ -40,7 +41,8 @@
 					<td>Propinsi</td>
 					<td> : </td>
 					<td><input type="text" name="propinsi"></td>
-					<td colspan="3">Kode Pos</td>
+					<td style="width: 20px;"></td>
+					<td colspan="4">Kode Pos</td>
 					<td> : </td>
 					<td colspan="5"><input type="text" name="kodepos"></td>
 				</tr>
@@ -49,17 +51,23 @@
 					<td>Tempat/Tanggal lahir</td>
 					<td> : </td>
 					<td class="A4" >Tempat</td>
+					<td></td>
 					<td class="A4" colspan="2">Tanggal</td>
+					<td style="width: 20px;"></td>
 					<td class="A4" colspan="2">Bulan</td>
+					<td style="width: 20px;"></td>
 					<td class="A4" colspan="4">Tahun</td>
 				</tr>
 				<tr>
 					<td colspan="2"></td>
 					<td><input type="text" name="tempatLahir"></td>
+					<td></td>
 					<td><input class="number" type="text" name="tanggal1"></td>
 					<td><input class="number" type="text" name="tanggal2"></td>
+					<td></td>
 					<td><input class="number" type="text" name="bulan1"></td>
 					<td><input class="number" type="text" name="bulan2"></td>
+					<td></td>
 					<td><input class="number" type="text" name="tahun1"></td>
 					<td><input class="number" type="text" name="tahun2"></td>
 					<td><input class="number" type="text" name="tahun3"></td>

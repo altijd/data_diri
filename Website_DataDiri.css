@@ -32,3 +32,17 @@
 .number{
 	width: 30px;
 }
+
+/*td{
+	border-style: solid;
+	border-width: 1px;
+}
+
+th{
+	border-style: solid;
+	border-width: 1px;
+}*/
+
+table{
+	border-collapse: collapse;
+}
