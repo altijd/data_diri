@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Form</title>
+		<link rel="stylesheet" type="text/css" href="Website_DataDiri.css">
 	</head>
 	<body>
 		<form action="" method="POST">
@@ -47,22 +48,22 @@
 					<td rowspan="2">A4.</td>
 					<td>Tempat/Tanggal lahir</td>
 					<td> : </td>
-					<td style="text-align: center;">Tempat</td>
-					<td style="text-align: center;" colspan="2">Tanggal</td>
-					<td style="text-align: center;" colspan="2">Bulan</td>
-					<td style="text-align: center;" colspan="4">Tahun</td>
+					<td class="A4" >Tempat</td>
+					<td class="A4" colspan="2">Tanggal</td>
+					<td class="A4" colspan="2">Bulan</td>
+					<td class="A4" colspan="4">Tahun</td>
 				</tr>
 				<tr>
 					<td colspan="2"></td>
 					<td><input type="text" name="tempatLahir"></td>
-					<td><input style="width: 30px;" type="text" name="tanggal1"></td>
-					<td><input style="width: 30px;" type="text" name="tanggal2"></td>
-					<td><input style="width: 30px;" type="text" name="bulan1"></td>
-					<td><input style="width: 30px;" type="text" name="bulan2"></td>
-					<td><input style="width: 30px;" type="text" name="tahun1"></td>
-					<td><input style="width: 30px;" type="text" name="tahun2"></td>
-					<td><input style="width: 30px;" type="text" name="tahun3"></td>
-					<td><input style="width: 30px;" type="text" name="tahun4"></td>
+					<td><input class="number" type="text" name="tanggal1"></td>
+					<td><input class="number" type="text" name="tanggal2"></td>
+					<td><input class="number" type="text" name="bulan1"></td>
+					<td><input class="number" type="text" name="bulan2"></td>
+					<td><input class="number" type="text" name="tahun1"></td>
+					<td><input class="number" type="text" name="tahun2"></td>
+					<td><input class="number" type="text" name="tahun3"></td>
+					<td><input class="number" type="text" name="tahun4"></td>
 				</tr>
 			</table>
 		</form>
