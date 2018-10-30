@@ -1,13 +1,26 @@
 <?php
-		$nama=$_POST["nama"];
-		$jk=$_POST["jk"];
-		$asalSmu=$_POST["asalSmu"];
-		$kabupatenKota=$_POST["kabupatenKota"];
-		$propinsi1=$_POST["propinsi1"];
-		$kodepos=$_POST["kodepos"];
-		$tempatLahir=$_POST["tempatLahir"];
-		$tanggal="{$_POST["tanggal1"]}{$_POST["tanggal2"]}";
-		$bulan="{$_POST["bulan1"]}{$_POST["bulan2"]}";
+	$nama=$_POST["nama"];
+	$jk=$_POST["jk"];
+	$asalSmu=$_POST["asalSmu"];
+	$kabupatenKota=$_POST["kabupatenKota"];
+	$propinsi1=$_POST["propinsi1"];
+	$kodepos=$_POST["kodepos"];
+	$tempatLahir=$_POST["tempatLahir"];
+	$tanggal="{$_POST["tanggal1"]}{$_POST["tanggal2"]}";
+	$bulan="{$_POST["bulan1"]}{$_POST["bulan2"]}";
+	$tahun="{$_POST["tahun1"]}{$_POST["tahun2"]}{$_POST["tahun3"]}{$_POST["tahun4"]}";
+	$alamatKantor=$_POST["alamatKantor"];
+	$noTelp1=$_POST["noTelp1"];
+	$kodePos1="{$_POST["kodePos11"]}{$_POST["kodePos12"]}{$_POST["kodePos13"]}{$_POST["kodePos14"]}";
+	$alamatRumah=$_POST["alamatRumah"];
+	$kelurahan=$_POST["kelurahan"];
+	$kecamatan=$_POST["kecamatan"];
+	$kabupaten=$_POST["kabupaten"];
+	$propinsi2=$_POST["propinsi2"];
+	$noTelp2=$_POST["noTelp2"];
+	$kodePos2="{$_POST["kodePos21"]}{$_POST["kodePos22"]}{$_POST["kodePos23"]}{$_POST["kodePos24"]}";
+	$noHP=$_POST["noHP"];
+	$email=$_POST["email"];
 ?>
 <!DOCTYPE html>
 <html>
@@ -73,7 +86,7 @@
 					<td style="padding-bottom: 10px;"></td>
 					<td style="padding-bottom: 10px;" class="A4" colspan="2"><?php echo $bulan ?></td>
 					<td style="padding-bottom: 10px;"></td>
-					<td style="padding-bottom: 10px;" class="A4" colspan="4"></td>
+					<td style="padding-bottom: 10px;" class="A4" colspan="4"><?php echo $tahun ?></td>
 					<td style="padding-bottom: 10px;" colspan="2"></td>
 				</tr>
 				<tr class="tr1">
@@ -83,17 +96,17 @@
 				</tr>
 				<tr class="tr2">
 					<td style="padding-left: 10px;" colspan="16">
-						
+						<?php echo $alamatKantor ?>
 					</td>
 				</tr>
 				<tr class="tr3">
 					<td style="padding-left: 10px; padding-bottom: 10px;">No telp</td>
 					<td style="padding-bottom: 10px;"> : </td>
-					<td style="padding-bottom: 10px;"></td>
+					<td style="padding-bottom: 10px;"><?php echo $noTelp1 ?></td>
 					<td style="padding-bottom: 10px;"></td>
 					<td style="padding-bottom: 10px;" colspan="2">Kode pos</td>
 					<td style="padding-bottom: 10px;"> : </td>
-					<td style="padding-bottom: 10px;" colspan="10"></td>
+					<td style="padding-bottom: 10px;" colspan="10"><?php echo $kodePos1 ?></td>
 				</tr>
 				<tr class="tr1">
 					<td class="td1" rowspan="6">A6.</td>
@@ -102,45 +115,45 @@
 				</tr>
 				<tr class="tr2">
 					<td style="padding-left: 10px;" colspan="16">
-						
+						<?php echo $alamatRumah ?>
 					</td>
 				</tr>
 				<tr class="tr2">
 					<td style="padding-left: 10px;">kelurahan</td>
 					<td> : </td>
 					<td></td>
-					<td></td>
+					<td><?php echo $kelurahan ?></td>
 					<td colspan="2">kecamatan</td>
 					<td> : </td>
-					<td colspan="5"></td>
+					<td colspan="5"><?php echo $kecamatan ?></td>
 					<td colspan="2">kabupaten</td>
 					<td> : </td>
-					<td style="padding-right: 10px"></td>
+					<td style="padding-right: 10px"><?php echo $kabupaten ?></td>
 				</tr>
 				<tr class="tr2">
 					<td style="padding-left: 10px;">Propinsi</td>
 					<td> : </td>
-					<td colspan="14"></td>
+					<td colspan="14"><?php echo $propinsi2 ?></td>
 				</tr>
 				<tr class="tr2">
 					<td style="padding-left: 10px;">No telp</td>
 					<td> : </td>
 					<td></td>
-					<td></td>
+					<td><?php echo $noTelp2 ?></td>
 					<td colspan="2">Kode pos</td>
 					<td> : </td>
-					<td colspan="10"></td>
+					<td colspan="10"><?php echo $kodePos2 ?></td>
 				</tr>
 				<tr class="tr3">
 					<td style="padding-left: 10px; padding-bottom: 10px;">No HP(mobile phone)</td>
 					<td style="padding-bottom: 10px;"> : </td>
-					<td style="padding-bottom: 10px;" colspan="15"></td>
+					<td style="padding-bottom: 10px;" colspan="15"><?php echo $noHP ?></td>
 				</tr>
 				<tr class="tr1 tr3">
 					<td style="border-bottom-left-radius: 20px; padding-top: 10px; padding-left: 10px;" class="td1">A7.</td>
 					<td style="padding-top: 10px;">Alamat Email</td>
 					<td style="padding-top: 10px;"> : </td>
-					<td style="border-bottom-right-radius: 20px; padding-left: 10px; padding-bottom: 10px;" colspan="14"></td>
+					<td style="border-bottom-right-radius: 20px; padding-left: 10px; padding-bottom: 10px;" colspan="14"><?php echo $email ?></td>
 				</tr>
 			</table>
 		</div>

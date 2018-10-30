@@ -151,7 +151,7 @@
 				</tr>
 			</table>
 			<center>
-				<input type="submit" value="kirim">
+				<input type="submit" class="tombol" value="kirim">
 			</center>
 		</form>
 	</body>
