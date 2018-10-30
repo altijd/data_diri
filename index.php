@@ -95,7 +95,8 @@
 					<td style="padding-bottom: 10px;"><input class="number" type="text" name="kodePos11"></td>
 					<td style="padding-bottom: 10px;"><input class="number" type="text" name="kodePos12"></td>
 					<td style="padding-bottom: 10px;"><input class="number" type="text" name="kodePos13"></td>
-					<td style="padding-bottom: 10px;" colspan="6"><input class="number" type="text" name="kodePos14"></td>
+					<td style="padding-bottom: 10px;"><input class="number" type="text" name="kodePos14"></td>
+					<td style="padding-bottom: 10px;" colspan="5"><input class="number" type="text" name="kodePos15"></td>
 				</tr>
 				<tr class="tr1">
 					<td class="td1" rowspan="6">A6.</td>
@@ -134,7 +135,8 @@
 					<td><input class="number" type="text" name="kodePos21"></td>
 					<td><input class="number" type="text" name="kodePos22"></td>
 					<td><input class="number" type="text" name="kodePos23"></td>
-					<td colspan="6"><input class="number" type="text" name="kodePos24"></td>
+					<td><input class="number" type="text" name="kodePos24"></td>
+					<td colspan="5"><input class="number" type="text" name="kodePos25"></td>
 				</tr>
 				<tr class="tr3">
 					<td style="padding-left: 10px; padding-bottom: 10px;">No HP(mobile phone)</td>
@@ -150,9 +152,7 @@
 					<td style="border-bottom-right-radius: 20px; padding-left: 10px; padding-bottom: 10px;" colspan="16"><input type="text" name="email" style="width: 300px"></td>
 				</tr>
 			</table>
-			<center>
-				<input type="submit" class="tombol" value="kirim">
-			</center>
+				<input style="margin-left: 40%; margin-top: 10px;" type="submit" class="tombol" value="kirim">
 		</form>
 	</body>
 </html>
