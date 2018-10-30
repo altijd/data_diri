@@ -5,6 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="Website_DataDiri.css">
 	</head>
 	<body>
+		<script src="script.js"></script>
 		<form style="margin-left: 15%;" action="aksi.php" method="POST">
 			<table>
 				<tr>
@@ -61,18 +62,18 @@
 				</tr>
 				<tr class="tr3">
 					<td style="padding-left: 10px; padding-bottom: 10px;" colspan="2"></td>
-					<td style="padding-bottom: 10px;"><input type="text" name="tempatLahir"></td>
+					<td style="padding-bottom: 10px;"><input class="A4" type="text" name="tempatLahir"></td>
 					<td style="padding-bottom: 10px;"></td>
-					<td style="padding-bottom: 10px;"><input class="number" type="text" name="tanggal1"></td>
-					<td style="padding-bottom: 10px;"><input class="number" type="text" name="tanggal2"></td>
+					<td style="padding-bottom: 10px;"><input class="number" type="text" maxlength="1" name="tanggal1"></td>
+					<td style="padding-bottom: 10px;"><input class="number" type="text" maxlength="1" name="tanggal2"></td>
 					<td style="padding-bottom: 10px;"></td>
-					<td style="padding-bottom: 10px;"><input class="number" type="text" name="bulan1"></td>
-					<td style="padding-bottom: 10px;"><input class="number" type="text" name="bulan2"></td>
+					<td style="padding-bottom: 10px;"><input class="number" type="text" maxlength="1" name="bulan1"></td>
+					<td style="padding-bottom: 10px;"><input class="number" type="text" maxlength="1" name="bulan2"></td>
 					<td style="padding-bottom: 10px;"></td>
-					<td style="padding-bottom: 10px;"><input class="number" type="text" name="tahun1"></td>
-					<td style="padding-bottom: 10px;"><input class="number" type="text" name="tahun2"></td>
-					<td style="padding-bottom: 10px;"><input class="number" type="text" name="tahun3"></td>
-					<td style="padding-bottom: 10px;"><input class="number" type="text" name="tahun4"></td>
+					<td style="padding-bottom: 10px;"><input class="number" type="text" maxlength="1" name="tahun1"></td>
+					<td style="padding-bottom: 10px;"><input class="number" type="text" maxlength="1" name="tahun2"></td>
+					<td style="padding-bottom: 10px;"><input class="number" type="text" maxlength="1" name="tahun3"></td>
+					<td style="padding-bottom: 10px;"><input class="number" type="text" maxlength="1" name="tahun4"></td>
 					<td style="padding-bottom: 10px;" colspan="2"></td>
 				</tr>
 				<tr class="tr1">
@@ -92,11 +93,11 @@
 					<td style="padding-bottom: 10px;"></td>
 					<td style="padding-bottom: 10px;" colspan="2">Kode pos</td>
 					<td style="padding-bottom: 10px;"> : </td>
-					<td style="padding-bottom: 10px;"><input class="number" type="text" name="kodePos11"></td>
-					<td style="padding-bottom: 10px;"><input class="number" type="text" name="kodePos12"></td>
-					<td style="padding-bottom: 10px;"><input class="number" type="text" name="kodePos13"></td>
-					<td style="padding-bottom: 10px;"><input class="number" type="text" name="kodePos14"></td>
-					<td style="padding-bottom: 10px;" colspan="5"><input class="number" type="text" name="kodePos15"></td>
+					<td style="padding-bottom: 10px;"><input class="number" type="text" maxlength="1" name="kodePos11"></td>
+					<td style="padding-bottom: 10px;"><input class="number" type="text" maxlength="1" name="kodePos12"></td>
+					<td style="padding-bottom: 10px;"><input class="number" type="text" maxlength="1" name="kodePos13"></td>
+					<td style="padding-bottom: 10px;"><input class="number" type="text" maxlength="1" name="kodePos14"></td>
+					<td style="padding-bottom: 10px;" colspan="5"><input class="number" type="text" maxlength="1" name="kodePos15"></td>
 				</tr>
 				<tr class="tr1">
 					<td class="td1" rowspan="6">A6.</td>
@@ -132,11 +133,11 @@
 					<td></td>
 					<td colspan="2">Kode pos</td>
 					<td> : </td>
-					<td><input class="number" type="text" name="kodePos21"></td>
-					<td><input class="number" type="text" name="kodePos22"></td>
-					<td><input class="number" type="text" name="kodePos23"></td>
-					<td><input class="number" type="text" name="kodePos24"></td>
-					<td colspan="5"><input class="number" type="text" name="kodePos25"></td>
+					<td><input class="number" type="text" maxlength="1" name="kodePos21"></td>
+					<td><input class="number" type="text" maxlength="1" name="kodePos22"></td>
+					<td><input class="number" type="text" maxlength="1" name="kodePos23"></td>
+					<td><input class="number" type="text" maxlength="1" name="kodePos24"></td>
+					<td colspan="5"><input class="number" type="text" maxlength="1" name="kodePos25"></td>
 				</tr>
 				<tr class="tr3">
 					<td style="padding-left: 10px; padding-bottom: 10px;">No HP(mobile phone)</td>
