@@ -70,11 +70,11 @@ table{
 }
 
 form{
-	transition: 0.5s;
+	transition: 3s;
 	overflow-y: hidden;
 }
 
 div{
-	transition: 0.5s;
+	transition: 1s;
 	overflow-y: hidden;
 }
