@@ -4,9 +4,9 @@
 		<title>Form</title>
 		<link rel="stylesheet" type="text/css" href="Website_DataDiri.css">
 	</head>
-	<body>
+	<body onload="animasi1();">
 		<script src="script.js"></script>
-		<form style="margin-left: 15%;" action="aksi.php" method="POST">
+		<form id="form1" style="margin-left: 15%; height: 0px;" action="aksi.php" method="POST">
 			<table>
 				<tr>
 					<th colspan="17" style="text-align: left;"><h3>A. Data Pribadi</h3></th>

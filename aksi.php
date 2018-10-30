@@ -28,8 +28,9 @@
 		<title>Hasil</title>
 		<link rel="stylesheet" type="text/css" href="Website_DataDiri.css">
 	</head>
-	<body>
-		<div style="margin-left: 20%;">
+	<body onload="animasi2();">
+		<script src="script.js"></script>
+		<div id="form1" style="margin-left: 30%; height: 0px;">
 			<table>
 				<tr>
 					<th colspan="17" style="text-align: left;"><h3>A. Data Pribadi</h3></th>

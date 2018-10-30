@@ -68,3 +68,13 @@ table{
 	border-color: #286090;
 	background-color: #286090;
 }
+
+form{
+	transition: 0.5s;
+	overflow-y: hidden;
+}
+
+div{
+	transition: 0.5s;
+	overflow-y: hidden;
+}
